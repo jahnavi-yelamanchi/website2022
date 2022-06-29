@@ -1,0 +1,45 @@
+body {
+	padding-left: 150px;
+	padding-top: 35px;
+	background-color: black;
+	color:white;
+	display: block;
+	font-size: 12px;
+	font-family: 'DM Mono', monospace;
+  height: 100%;
+  width: 100%;
+	overflow-x: hidden;
+}
+@media (max-width: 500px){
+	body{
+		overflow-x: hidden;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 35px;
+	}
+}
+h1{
+	font-size: 27px;
+}
+h2{
+	font-size: 16px;
+}
+
+.container-heading{
+	font-weight: 500;
+}
+.container-content{
+	font-weight: 300;
+	text-underline-offset: 2px;
+	line-height: 20px;
+}
+a, a:visited, a:active {
+  color: inherit;
+}
+a:hover{
+	color: grey;
+}
+.quote{
+	font-weight: 300;
+	color: darkgray;
+}
