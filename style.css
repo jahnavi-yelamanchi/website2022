@@ -1,8 +1,8 @@
 body {
 	padding-left: 150px;
 	padding-top: 35px;
-	/*background-color: black;*/
-	/*color:white;*/
+	background-color: black;
+	color:white;
 	display: block;
 	font-size: 12px;
 	font-family: 'DM Mono', monospace;
@@ -38,7 +38,7 @@ a, a:visited, a:active {
   color: inherit;
 }
 a:hover{
-	color: grey;
+	color: #FF3C54;
 }
 .quote{
 	font-weight: 300;
